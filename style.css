@@ -1,0 +1,15 @@
+h3{
+    font-size: 25px;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: lotus;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes lotus{
+    from{box-shadow: 1px 1px 100px pink;}
+    to{box-shadow: 1px 1px 100px whitesmoke;}
+}
